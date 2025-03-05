@@ -39,7 +39,7 @@ const MainContent = () => {
             <div className="my-12 text-[56px] text-slate-500 font-semibold p-5">
               <p>
                 <span className="bg-gradient-to-r from-[#368ddd] to-[#ff5546] bg-clip-text text-transparent">
-                  Hello, Arya.
+                  Hello, Krishna.
                 </span>
               </p>
 
