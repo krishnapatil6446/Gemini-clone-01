@@ -1,16 +1,16 @@
-import React, { useContext } from "react"
+import React, { useContext } from "react";
 import {
   FaCode,
   FaCompass,
   FaLightbulb,
   FaMicrophone,
   FaUserCircle,
-} from "react-icons/fa"
-import { FaMessage } from "react-icons/fa6"
-import { MdAddPhotoAlternate } from "react-icons/md"
-import { IoMdSend } from "react-icons/io"
-import { Context } from "../context/Context"
-import geminiLogo from "../assets/geminiLogo.png"
+} from "react-icons/fa";
+import { FaMessage } from "react-icons/fa6";
+import { MdAddPhotoAlternate } from "react-icons/md";
+import { IoMdSend } from "react-icons/io";
+import { Context } from "../context/Context";
+import geminiLogo from "../assets/geminiLogo.png";
 
 const MainContent = () => {
   const {
@@ -24,7 +24,7 @@ const MainContent = () => {
     loading,
     resultData,
     onSent,
-  } = useContext(Context)
+  } = useContext(Context);
 
   return (
     <div className="flex-1 min-h-screen pb-[15vh] relative">
@@ -39,7 +39,7 @@ const MainContent = () => {
             <div className="my-12 text-[56px] text-slate-500 font-semibold p-5">
               <p>
                 <span className="bg-gradient-to-r from-[#368ddd] to-[#ff5546] bg-clip-text text-transparent">
-                  Hello, Krishna.
+                  Hello, Aashish.
                 </span>
               </p>
 
@@ -138,7 +138,7 @@ const MainContent = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default MainContent
+export default MainContent;
